@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class SumOf2050 {
+
+    public static int findMin2050 (int n) {
+        if (n % 2050 != 0) {
+            return -1;
+        }
+        
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            findMin2050(n);
+        }
+    }
+}
